@@ -1,28 +1,20 @@
 body {
     margin: 0;
     text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
-    margin-top: 0;
+    margin: 50px auto 0 auto;
+    font-size: 5.625rem;
 }
+
+
 
 .top-container {
     background-color: #E4F9F5;
     position: relative;
     padding-top: 100px;
-}
-
-.middle-container {
-    background-color: red;
-    width: 200px;
-    height: 200px;
-}
-
-.bottom-container {
-    background-color: blue;
-    width: 200px;
-    height: 200px;
 }
 
 .web {
