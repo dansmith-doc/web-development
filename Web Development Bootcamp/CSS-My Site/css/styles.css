@@ -7,9 +7,24 @@ body {
 h1 {
     margin: 50px auto 0 auto;
     font-size: 5.625rem;
+    line-height: 2;
+    color: #66bfbf;
+    font-weight: normal;
 }
 
+h2 {
+    color: #66bfbf;
+}
 
+h3 {
+    color: #66bfbf;
+}
+.skill-row {
+    width: 50%;
+    margin: 100px auto 100px auto;
+    text-align: left;
+    line-height: 2;
+}
 
 .top-container {
     background-color: #E4F9F5;
@@ -32,5 +47,17 @@ h1 {
     position: absolute;
     left: 300px;
     bottom: 300px;
+}
+
+.code {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.sparks {
+    width: 25%;
+    float: right;
+    margin-left: 30px;
 }
 
