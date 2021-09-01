@@ -4,9 +4,15 @@
 <head>
   <meta charset="utf-8">
   <title>Dog</title>
+
+<!-- links -->
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <link rel="stylesheet" href="css/styles.css">
+
+
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
   </script>
@@ -21,9 +27,10 @@
 <body>
 
   <section id="title">
+    <div class="container-fluid">
 
-    <!-- Nav Bar -->
-      <nav class="navbar bg-dark navbar-expand-lg navbar-dark">
+      <!-- Nav Bar -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
         <a class="navbar-brand" href="">Dog</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,15 +53,22 @@
 
 
 
-    <!-- Title -->
+      <!-- Title -->
 
-    <div>
-      <h1>Meet new and interesting dogs nearby.</h1>
-      <button type="button">Download</button>
-      <button type="button">Download</button>
-    </div>
-    <div>
-      <img src="images/iphone6.png" alt="iphone-mockup">
+      <div class="row">
+
+        <div class="col-lg-6">
+          <h1>Meet new and interesting dogs nearby.</h1>
+          <button type="button" class="btn btn-dark btn-lg">Download</button>
+          <button type="button" class="btn btn-outline-light btn-lg" >Download</button>
+        </div>
+
+        <div class="col-lg-6">
+          <img src="images/iphone6.png" alt="iphone-mockup">
+        </div>
+
+      </div>
+
     </div>
 
   </section>
