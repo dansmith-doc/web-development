@@ -91,6 +91,10 @@ body {
     margin: 20px;
 }
 
+.carousel-inner {
+    text-align: center;
+}
+
 /* Press Section */
 
 #press {
